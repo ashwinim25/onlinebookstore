@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('clone from git') {
             steps {
-                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/raghudeveloptrees/onlinebookstore.git'
+                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/ashwinim25/onlinebookstore.git'
             }
         }
         stage('build'){
